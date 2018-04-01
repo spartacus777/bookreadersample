@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.folioreader.ui.folio.activity.ContentHighlightActivity">
+    tools:context="com.book.ui.folio.activity.ContentHighlightActivity">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
@@ -26,12 +26,11 @@
 
             <ImageView
                 android:id="@+id/btn_close"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
                 android:layout_alignParentLeft="true"
                 android:layout_centerInParent="true"
-                android:layout_margin="16dp"
-                android:scaleType="centerCrop"
+                android:scaleType="centerInside"
                 android:src="@drawable/ic_close_green_24dp" />
 
             <LinearLayout android:id="@+id/layout_content_highlights"

@@ -90,6 +90,8 @@ dependencies {
     compile "com.android.support:support-v4:$ANDROID_LIB_VERSION"
     compile "com.android.support:design:$ANDROID_LIB_VERSION"
 
+    compile 'com.google.android.gms:play-services-ads:11.8.0'
+
     compile 'com.daimajia.swipelayout:library:1.2.0@aar'
     // r2-streamer
     final R2_STREAMER_VERSION = '0.1.2'

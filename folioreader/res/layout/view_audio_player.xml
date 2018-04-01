@@ -72,7 +72,7 @@
         android:orientation="horizontal"
         android:weightSum="4.0">
 
-        <com.folioreader.view.StyleableTextView
+        <com.book.view.StyleableTextView
             android:id="@+id/btn_half_speed"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -82,7 +82,7 @@
             android:textSize="14sp"
             app:folio_font="@string/andada_font" />
 
-        <com.folioreader.view.StyleableTextView
+        <com.book.view.StyleableTextView
             android:id="@+id/btn_one_x_speed"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -92,7 +92,7 @@
             android:textSize="17sp"
             app:folio_font="@string/lato_font" />
 
-        <com.folioreader.view.StyleableTextView
+        <com.book.view.StyleableTextView
             android:id="@+id/btn_one_and_half_speed"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -102,7 +102,7 @@
             android:textSize="14sp"
             app:folio_font="@string/lora_font" />
 
-        <com.folioreader.view.StyleableTextView
+        <com.book.view.StyleableTextView
             android:id="@+id/btn_twox_speed"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -126,7 +126,7 @@
         android:layout_below="@+id/second_separator"
         android:orientation="horizontal">
 
-        <com.folioreader.view.StyleableTextView
+        <com.book.view.StyleableTextView
             android:id="@+id/btn_backcolor_style"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -142,7 +142,7 @@
             android:layout_height="match_parent"
             android:background="@color/borders" />
 
-        <com.folioreader.view.StyleableTextView
+        <com.book.view.StyleableTextView
             android:id="@+id/btn_text_undeline_style"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -160,7 +160,7 @@
             android:layout_height="match_parent"
             android:background="@color/borders" />
 
-        <com.folioreader.view.StyleableTextView
+        <com.book.view.StyleableTextView
             android:id="@+id/btn_text_color_style"
             android:layout_width="0dp"
             android:layout_height="match_parent"

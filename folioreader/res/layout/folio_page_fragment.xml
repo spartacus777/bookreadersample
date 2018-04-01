@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-    <com.folioreader.view.ObservableWebView
+    <com.book.view.ObservableWebView
         android:id="@+id/contentWebView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/indicatorLayout"
         android:paddingBottom="2dp" />
-    <com.folioreader.view.VerticalSeekbar
+    <com.book.view.VerticalSeekbar
         android:id="@+id/scrollSeekbar"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"

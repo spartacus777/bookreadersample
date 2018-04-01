@@ -39,7 +39,7 @@
         android:gravity="center"
         android:orientation="horizontal"
         android:weightSum="4.0">
-        <com.folioreader.view.StyleableTextView
+        <com.book.view.StyleableTextView
             android:id="@+id/btn_font_andada"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
             android:text="@string/andada"
             android:textSize="17sp"
             app:folio_font="@string/andada_font" />
-        <com.folioreader.view.StyleableTextView
+        <com.book.view.StyleableTextView
             android:id="@+id/btn_font_lato"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
             android:text="@string/lato"
             android:textSize="17sp"
             app:folio_font="@string/lato_font" />
-        <com.folioreader.view.StyleableTextView
+        <com.book.view.StyleableTextView
             android:id="@+id/btn_font_lora"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -66,7 +66,7 @@
             android:text="@string/lora"
             android:textSize="17sp"
             app:folio_font="@string/lora_font" />
-        <com.folioreader.view.StyleableTextView
+        <com.book.view.StyleableTextView
             android:id="@+id/btn_font_raleway"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -127,7 +127,7 @@
         android:gravity="center"
         android:orientation="horizontal"
         android:weightSum="4.0" android:visibility="gone">
-        <com.folioreader.view.StyleableTextView
+        <com.book.view.StyleableTextView
             android:id="@+id/btn_vertical_orentation"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -137,7 +137,7 @@
             android:textColor="@drawable/font_text_selector"
             android:textSize="17sp"
             app:folio_font="@string/andada_font" />
-        <com.folioreader.view.StyleableTextView
+        <com.book.view.StyleableTextView
             android:id="@+id/btn_horizontal_orentation"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

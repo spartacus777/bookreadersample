@@ -1,0 +1,6 @@
+<resources>
+
+    <string translatable="false" name="admob_app_id">TODO</string>
+    <string translatable="false" name="admob_banner">TODO</string>
+
+</resources>
